@@ -71,13 +71,19 @@ const displayMovements = function (movements) {
         <div class="movements__type movements__type--${type}">${
       i + 1
     } ${type}</div>
-        <div class="movements__value">${mov}</div>
+        <div class="movements__value">${mov} EUR</div>
       </div>`;
 
     containerMovements.insertAdjacentHTML('afterbegin', html);
   });
 };
 displayMovements(account1.movements);
+
+const calcDisplayBalance = function (movements) {
+  const balance = movements.reduce((acc, mov) => acc + mov, 0);
+  labelBalance.textContent = `${balance} EUR`;
+};
+calcDisplayBalance(account1.movements);
 
 const createUsernames = function (accs) {
   accs.forEach(function (acc) {
@@ -90,7 +96,6 @@ const createUsernames = function (accs) {
 };
 
 createUsernames(accounts);
-console.log(accounts);
 
 // const user = 'Steven Thomas Williams'; // stw
 
@@ -117,4 +122,38 @@ const movementUSD = movements.map(nav => nav * eurToUsd);
 // });
 console.log(movements);
 console.log(movementUSD);
+
+const deposit = movements.filter(mov => mov > 0);
+console.log(movements);
+console.log(deposit);
+
+const withdrawals = movements.filter(mov => mov < 0);
+console.log(withdrawals);
+
+const balance = movements.reduce(function (acc, cur, i, arr) {
+  console.log(`Iteration ${i}: ${acc}`);
+  return acc + cur;
+}, 0);
+
+const balance2 = movements.reduce((acc, cur) => acc + cur, 0);
+
+console.log(balance);
+console.log(balance2);
+
+const maximum = movements.reduce((acc, cur) => {
+  if (acc > cur) return acc;
+  else return cur;
+}, movements[0]);
+
+console.log(maximum);
 */
+
+const calcAverageHumanAge = function (ages) {
+  const humanAges = ages.map(age => (age <= 2 ? 2 * age : 16 + age * 4));
+  const ages18 = humanAges.filter(age => age >= 18);
+  const avg = ages18.reduce((acc, age) => acc + age, 0) / ages18.length;
+  return avg;
+};
+
+console.log(calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]));
+console.log(calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]));
