@@ -4,7 +4,7 @@ Projekt aplikacji bankowej :)
 
 Pierwszym krokiem jest zalogowanie się do aplikacji, posiadamy do wyboru cztery konta:
 
-1. login: js pin: 1111
+1. login: kj pin: 1111
 2. login: jd pin: 2222
 3. login: stw pin: 3333
 4. login: pin: 4444
@@ -16,7 +16,7 @@ Po zalogowaniu się przechodzimy do okna bankowanego, w którym widzimy:\
 - wypłaty, 
 - stan konta, 
 - zysk z oprocentowania, który jest wyliczany dla każdego konta inaczej
-- suma wpłat
+- suma wpłat,
 - suma wypłat
 
 
@@ -26,6 +26,3 @@ W oknie konta bankowego możemy wykonac następujące operacje:
 - wziąć pożyczkę, która nie przekracza więcej niż 10% największej wpłaconej kwoty na konto
 - usunąć konto, po ponownej próbie zalogowania- konto nie istnieje
 - sortowanie przelewów, od najmniejszego do największego (od dołu do góry)
-
-
-
