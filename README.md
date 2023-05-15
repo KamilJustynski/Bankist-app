@@ -4,8 +4,8 @@
 
 *********** 1. Pierwszym krokiem jest zalogowanie się do aplikacji, posiadamy do wyboru dwa konta ***********
 
-1. login: kj pin: 1111
-2. login: jd pin: 2222
+- login: kj pin: 1111
+- login: jd pin: 2222
 
 ********** 2. Po zalogowaniu się przechodzimy do okna bankowanego, w którym widzimy ***********
 
