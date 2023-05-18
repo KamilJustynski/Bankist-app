@@ -18,7 +18,7 @@
 
 ********** 3. W oknie konta bankowego możemy wykonac następujące operacje ***********
 
-- przelew z konta, na którym jesteśmy zalogowaniu na wybrane jedno z 4 kont wymienionych wyżej
+- przelew z konta, na którym jesteśmy zalogowaniu na wybrane jedno z 2 kont wymienionych wyżej
 - wziąć pożyczkę, która nie przekracza więcej niż 10% największej wpłaconej kwoty na konto
 - usunąć konto, po ponownej próbie zalogowania- konto nie istnieje
 - sortowanie przelewów, od najmniejszego do największego (od dołu do góry)
