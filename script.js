@@ -188,7 +188,7 @@ const startLogOutTimer = function () {
     timer--;
   };
   // Set time to 5 minutes
-  let timer = 120;
+  let timer = 300;
 
   // Call the timer every second
   tick();
@@ -318,6 +318,7 @@ btnClose.addEventListener('click', function (e) {
 
     // Clear inputs
     inputCloseUsername.value = inputClosePin.value = '';
+    labelWelcome.textContent = 'Log in to get started';
   }
 });
 
