@@ -9,7 +9,7 @@ login: jd pin: 2222
 
 ### After logging in, we go to the banking window where we see
 
-${deposits},
+Deposits,
 payouts,
 account balance,
 interest yield, which is calculated differently for each account
