@@ -1,24 +1,24 @@
-# Bankist-app
+# Bankist APP
 
----------- Projekt aplikacji bankowej :) ----------
+## Banking application project :) 
 
-*********** 1. Pierwszym krokiem jest zalogowanie się do aplikacji, posiadamy do wyboru dwa konta ***********
+### The first step is to log in to the application, we have two accounts to choose from
 
-- login: kj pin: 1111
-- login: jd pin: 2222
+login: kj pin: 1111
+login: jd pin: 2222
 
-********** 2. Po zalogowaniu się przechodzimy do okna bankowanego, w którym widzimy ***********
+### After logging in, we go to the banking window where we see
 
-- wpłaty, 
-- wypłaty, 
-- stan konta, 
-- zysk z oprocentowania, który jest wyliczany dla każdego konta inaczej
-- suma wpłat,
-- suma wypłat
+${deposits},
+payouts,
+account balance,
+interest yield, which is calculated differently for each account
+sum of payments,
+sum of withdrawals
 
-********** 3. W oknie konta bankowego możemy wykonac następujące operacje ***********
+### In the bank account window we can perform the following operations
 
-- przelew z konta, na którym jesteśmy zalogowaniu na wybrane jedno z 2 kont wymienionych wyżej
-- wziąć pożyczkę, która nie przekracza więcej niż 10% największej wpłaconej kwoty na konto
-- usunąć konto, po ponownej próbie zalogowania- konto nie istnieje
-- sortowanie przelewów, od najmniejszego do największego (od dołu do góry)
+Transfer from the account where we are logged in to one of the 2 accounts mentioned above
+take out a loan that does not exceed more than 10% of the largest amount deposited into the account
+delete the account, after trying to log in again - the account does not exist
+sorting transfers, from smallest to largest (bottom to top)
