@@ -22,3 +22,7 @@ Transfer from the account where we are logged in to one of the 2 accounts mentio
 take out a loan that does not exceed more than 10% of the largest amount deposited into the account
 delete the account, after trying to log in again - the account does not exist
 sorting transfers, from smallest to largest (bottom to top)
+
+# DEMO
+
+![BankistApp](https://r0galkj.github.io/Bankist-app/)
