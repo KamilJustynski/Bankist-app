@@ -25,4 +25,4 @@ sorting transfers, from smallest to largest (bottom to top)
 
 # DEMO
 
-[BankistApp](https://r0galkj.github.io/Bankist-app/)
+[BankistApp](https://kamiljustynski.github.io/Bankist-app/)
